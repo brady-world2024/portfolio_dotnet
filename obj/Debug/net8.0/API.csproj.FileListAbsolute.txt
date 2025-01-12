@@ -129,3 +129,14 @@ C:\Users\Brady\ReStore\temp\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\Brady\ReStore\temp\API\obj\Debug\net8.0\API.pdb
 C:\Users\Brady\ReStore\temp\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Brady\ReStore\temp\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\API.deps.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\API.runtimeconfig.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\API.staticwebassets.endpoints.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\Brady\ReStore\temp\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\publish\API.deps.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\publish\API.runtimeconfig.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\publish\API.staticwebassets.endpoints.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\publish\appsettings.Development.json
+C:\Users\Brady\ReStore\temp\API\bin\Debug\net8.0\publish\publish\appsettings.json

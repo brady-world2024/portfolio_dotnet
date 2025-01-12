@@ -22,6 +22,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// app.Urls.Add("http://localhost:5017");
+builder.WebHost.UseUrls("http://0.0.0.0:5017");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -42,9 +44,9 @@ var scope = app.Services.CreateScope();
 var context = scope.ServiceProvider.GetRequiredService<PortfolioContext>();
 var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
 try{
-    //    context.Database.EnsureDeleted(); // 删除数据库
-    //     context.Database.EnsureCreated(); // 创建数据库架构
-    //     DbInitializer.Initialize(context); // 初始化数据
+       context.Database.EnsureDeleted(); 
+        context.Database.EnsureCreated(); 
+        DbInitializer.Initialize(context); 
 }
 catch(Exception ex){
     logger.LogError(ex, "A problem occurred during migration");
@@ -57,7 +59,7 @@ app.MapGet("/projects", async () =>
 .WithName("GetProjects");
 
 app.UseCors(opt=>{
-    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://127.0.0.1:3000", "http://localhost:3000");
 });
 
 
